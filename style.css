@@ -7,7 +7,7 @@ body {
 }
 
 header, section{
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
     margin-top: 40px;
 }
@@ -47,6 +47,10 @@ table {
     overflow-x: scroll;
 }
 
+.table::-webkit-scrollbar {
+    display: none;
+}
+
 table tbody tr {
     display: flex;
     justify-content: space-between;
@@ -79,6 +83,9 @@ table tbody tr {
         width: 100%;
     }
 
+    input {
+        width: 90%;
+    }
     button{
         padding: 10px;
         margin: 10px 0;
